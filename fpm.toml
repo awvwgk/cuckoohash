@@ -1,0 +1,10 @@
+name = "cuckoohash"
+version = "0.2.0"
+license = "Apache-2.0"
+maintainer = ["@awvwgk"]
+author = ["Sebastian Ehlert"]
+description = "Cuckoo hash map implementation"
+keywords = ["hash", "map"]
+
+dependencies.waterhash.git = "https://github.com/awvwgk/waterhash"
+dev-dependencies.test-drive.git = "https://github.com/awvwgk/test-drive"
